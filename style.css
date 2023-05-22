@@ -1,0 +1,39 @@
+#foto{
+    height: 200px;
+    border-radius: 20%;
+    
+}
+
+
+body{
+ text-align: center;
+ background-color:darkcyan;
+ color: black; 
+}
+
+.menu{
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+   
+}
+
+.links{
+    display: inline;
+    padding-left: 60px;
+    padding-right: 25 px;
+    font-size: 20 px;
+}
+
+.video1{
+    width: 50px;
+}
+
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    background: brown;
+}
